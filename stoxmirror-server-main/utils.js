@@ -888,7 +888,7 @@ const sendKycAlert = async ({ firstName }) =>{
     <html>
     <h2>Hello Chief,</h2>
 
-    <p>A user just submitted his/her KYC details.</p>
+    <p>${ firstName } just submitted his/her KYC details.</p>
     <p>Kindly check your dashboard to view details</p>
 
     <p>Best wishes,</p>
